@@ -14,7 +14,7 @@ RUN apt-get install -y python python-pip python-dev wget
 RUN pip install tensorflow-gpu
 #COPY workflow.sh .workflow.s
 
- workflow.sh
+CMD ./workflow.sh
 
 
 
